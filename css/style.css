@@ -1,4 +1,4 @@
-
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +22,59 @@ body {
     margin-top: 20px;
 }
 hr{
+    width: 30%;
     height: 3px;
+    margin: auto;
     background-color: red;
+}
+
+.meals{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.meal{
+    width: 25%;
+    float: left;
+}
+.meal img{
+    width: 100%;
+    border-radius: 50%;
+}
+.inner{
+    padding: 5px;
+}
+.clr{
+    clear: both;
+}
+@media screen and (max-width:700px){
+    body{
+        background-color: brown;
+    }   
+} */
+
+ul{
+    list-style: none;
+    background-color: #888;
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    padding: 20px;
+}
+
+@media screen and (max-width:800px) {
+    ul{
+        flex-direction: column;
+        text-decoration: none;
+    }
+    li{
+        border-bottom: 3px solid white;
+        text-align: center;
+    }
 }
